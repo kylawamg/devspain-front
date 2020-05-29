@@ -2,10 +2,12 @@ html,
 body {
   background: #fafafa;
   font-family: Nurito;
+  min-height: 100vh;
 }
 .home-container {
   text-align: center;
 }
+
 .home-title {
   position: relative;
   display: inline-block;

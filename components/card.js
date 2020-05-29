@@ -10,7 +10,11 @@ const Card = ({ post }) => {
     <div>
       <div className="uk-card uk-card-default">
         <div className="uk-card-media-top">
-          <img src={`http://localhost:1337${post.image.url}`} alt=""></img>
+          <Link href="/post/[id]" as={`/post/${post.id}`}>
+            <a>
+              <img src={`http://localhost:1337${post.image.url}`} alt=""></img>
+            </a>
+          </Link>
         </div>
 
         <div className="uk-card-body">

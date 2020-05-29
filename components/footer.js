@@ -4,7 +4,7 @@ import "../assets/scss/footer.scss";
 
 const Footer = () => {
   return (
-    <footer className="footer" uk-sticky="bottom: true">
+    <div className="footer" uk-sticky="bottom: 400">
       <div className="uk-container uk-container-large">
         <div className="">
           <ul className="uk-subnav uk-subnav-divider" uk-margin="true">
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 

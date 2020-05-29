@@ -7,14 +7,13 @@ import { useRouter } from "next/router";
 const PostDetailPage = () => {
   const router = useRouter();
   debugger;
-  const { pid } = router.query;
+  const { id } = router.query;
   return (
     <div>
-      <p>{pid}</p>
       <div className="uk-section home-container">
         <div className="uk-container uk-container-large">
           <h2 className="home-title">Últimos articulos</h2>
-          <Query query={POST_BY_ID_QUERY} id={1}>
+          <Query query={POST_BY_ID_QUERY} id={id}>
             {({ data: { post } }) => {
               return <PostDetail post={post} />;
             }}

@@ -13,17 +13,17 @@ const Nav = () => {
             <div data-uk-sticky="show-on-up: true">
               <nav className="uk-navbar-container" data-uk-navbar>
                 <div className="uk-navbar-left">
-                  <a className="uk-navbar-item uk-logo" href="#">
+                  <a className="uk-navbar-item uk-logo" href="/">
                     DevSpain Blog
                   </a>
                   <ul className="uk-navbar-nav">
                     <li>
-                      <Link href="/">
+                      <Link href="/articles">
                         <a>Categorías</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/">
+                      <Link href="/about">
                         <a>Quien somos</a>
                       </Link>
                     </li>
