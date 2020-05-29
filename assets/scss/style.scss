@@ -1,8 +1,9 @@
 html,
 body {
-  background: #fafafa;
+	background: #fafafa;
+	height: 2000px;
 }
-.uk-navbar-container,
-uk-navbar {
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
   background: #ffffff;
 }

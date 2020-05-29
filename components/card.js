@@ -16,7 +16,7 @@ const Card = ({ post }) => {
         <div className="uk-card-body">
           <h3 className="uk-card-title">{post.title}</h3>
         </div>
-        <div class="uk-card-foot">
+        <div className="uk-card-foot">
           <span className="secondary-card-text">
             By:{" "}
             <a className="secondary-card-text blue-text" href="#">
