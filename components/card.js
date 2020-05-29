@@ -12,9 +12,18 @@ const Card = ({ post }) => {
         <div className="uk-card-media-top">
           <img src={`http://localhost:1337${post.image.url}`} alt=""></img>
         </div>
+
         <div className="uk-card-body">
           <h3 className="uk-card-title">{post.title}</h3>
-          <a className="category-text" href="#">
+        </div>
+        <div class="uk-card-foot">
+          <span className="secondary-card-text">
+            By:{" "}
+            <a className="secondary-card-text blue-text" href="#">
+              {post.user.username}
+            </a>
+          </span>
+          <a className="secondary-card-text blue-text right" href="#">
             {post.category.name}
           </a>
         </div>
