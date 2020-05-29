@@ -36,29 +36,7 @@ const Nav = () => {
                 </div>
 
                 <div className="uk-navbar-right">
-<<<<<<< Updated upstream
-                  <div class="uk-navbar-item">
-=======
-<<<<<<< Updated upstream
-                  <ul className="uk-navbar-nav">
-                    {categories.map((category, i) => {
-                      return (
-                        <li key={category.id}>
-                          <Link
-                            href={{
-                              pathname: "category",
-                              query: { id: category.id },
-                            }}
-                          >
-                            <a className="uk-link-reset">{category.name}</a>
-                          </Link>
-                        </li>
-                      );
-                    })}
-                  </ul>
-=======
                   <div className="uk-navbar-item">
->>>>>>> Stashed changes
                     <div>
                       <a
                         className="uk-navbar-toggle"
@@ -79,16 +57,10 @@ const Nav = () => {
                         </form>
                       </div>
                     </div>
-<<<<<<< Updated upstream
-                    <button class="uk-button btn-nav-bar">Suscribete!</button>
-                  </div>
-=======
                     <button className="uk-button btn-nav-bar">
                       Suscribete!
                     </button>
                   </div>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
                 </div>
               </nav>
             </div>

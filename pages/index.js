@@ -8,15 +8,7 @@ const Home = () => {
     <div>
       <div className="uk-section home-container">
         <div className="uk-container uk-container-large">
-<<<<<<< Updated upstream
-          <h2>Últimos articulos</h2>
-=======
-<<<<<<< Updated upstream
-          <h1>Strapi blog</h1>
-=======
-          <h2 class="home-title">Últimos articulos</h2>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+          <h2 className="home-title">Últimos articulos</h2>
           <Query query={POSTS_QUERY}>
             {({ data: { posts } }) => {
               return <Posts posts={posts} />;
