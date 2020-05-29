@@ -4,7 +4,7 @@ import "../assets/scss/footer.scss";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" uk-sticky="bottom: true">
       <div className="uk-container uk-container-large">
         <div className="">
           <ul className="uk-subnav uk-subnav-divider" uk-margin="true">
