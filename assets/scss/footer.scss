@@ -1,3 +1,5 @@
+@import "vars";
+
 .footer {
   text-align: center;
   background: #ffffff;
@@ -7,9 +9,9 @@
 .uk-subnav > * > :first-child {
   text-transform: none;
   font-size: 16px;
-  font-family: Nurito;
+  font-family: $main-font-family;
   &:hover {
-    color: #1da7da;
+    color: $main-blue;
   }
 }
 .uk-subnav {
