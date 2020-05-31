@@ -1,0 +1,18 @@
+.footer {
+  text-align: center;
+  background: #ffffff;
+  width: 100%;
+  padding: 50px;
+}
+.uk-subnav > * > :first-child {
+  text-transform: none;
+  font-size: 16px;
+  font-family: Nurito;
+  &:hover {
+    color: #1da7da;
+  }
+}
+.uk-subnav {
+  text-align: center;
+  justify-content: center;
+}

@@ -4,7 +4,7 @@ import "../assets/scss/style.scss";
 import { ApolloProvider } from "@apollo/react-hooks";
 import withData from "../utils/apollo";
 import Nav from "../components/nav";
-
+import Footer from "../components/footer";
 const App = ({ Component, pageProps, apollo }) => {
   return (
     <ApolloProvider client={apollo}>
@@ -27,6 +27,7 @@ const App = ({ Component, pageProps, apollo }) => {
       <div className="uk-container">
         <Component {...pageProps} />
       </div>
+      <Footer></Footer>
     </ApolloProvider>
   );
 };
