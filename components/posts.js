@@ -7,7 +7,7 @@ const Posts = ({ posts }) => {
   return (
     <div>
       <div
-        className="uk-grid uk-grid-match uk-child-width-1-3@s uk-flex-center"
+        className="uk-grid uk-grid-match uk-child-width-1-3@s uk-flex"
         uk-grid="true"
       >
         {posts.map((post, i) => {
