@@ -36,7 +36,7 @@ const Nav = () => {
                 </div>
 
                 <div className="uk-navbar-right">
-                  <div class="uk-navbar-item">
+                  <div className="uk-navbar-item">
                     <div>
                       <a
                         className="uk-navbar-toggle"
@@ -57,7 +57,9 @@ const Nav = () => {
                         </form>
                       </div>
                     </div>
-                    <button class="uk-button btn-nav-bar">Suscribete!</button>
+                    <button className="uk-button btn-nav-bar">
+                      Suscribete!
+                    </button>
                   </div>
                 </div>
               </nav>
