@@ -5,6 +5,10 @@ const POSTS_QUERY = gql`
     posts {
       id
       title
+      content
+      user {
+        username
+      }
       category {
         id
         name
