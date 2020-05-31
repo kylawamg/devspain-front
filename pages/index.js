@@ -14,7 +14,9 @@ const Home = () => {
               return <Posts posts={posts} />;
             }}
           </Query>
-          <button className="uk-button btn-load-more">Ver todos</button>
+          <a href="/articles" className="uk-button btn-load-more">
+            Ver todos
+          </a>
         </div>
       </div>
     </div>
