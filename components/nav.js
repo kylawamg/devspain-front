@@ -51,7 +51,7 @@ const Nav = () => {
                           <input
                             className="uk-search-input"
                             type="search"
-                            placeholder="Search..."
+                            placeholder="Buscar..."
                             autoFocus
                           ></input>
                         </form>
