@@ -46,6 +46,7 @@ a {
 }
 .article__content {
   padding: 2em;
+  border: 1px solid #eaeaea;
   @media (min-width: $break-point-tablet) {
     padding: 60px 70px;
   }
