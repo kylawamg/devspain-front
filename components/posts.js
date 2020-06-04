@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./card";
 
 const Posts = ({ posts }) => {
+  debugger;
   const leftPostsCount = Math.ceil(posts.length / 5);
 
   return (

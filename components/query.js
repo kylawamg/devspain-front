@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { useQuery } from "@apollo/react-hooks";
 
 const Query = ({ children, query, id }) => {
@@ -12,3 +12,4 @@ const Query = ({ children, query, id }) => {
 };
 
 export default Query;
+*/
