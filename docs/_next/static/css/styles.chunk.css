@@ -98,3 +98,41 @@ a:hover {
   text-align: center;
   justify-content: center; }
 
+.img-card {
+  width: 100%;
+  height: 200px; }
+
+.uk-card-body {
+  text-align: left;
+  padding: 15px 20px 15px 20px; }
+  .uk-card-body h3 {
+    font-family: Nunito;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+    line-height: 20px; }
+
+.uk-card-foot {
+  text-align: left;
+  padding: 0 20px;
+  bottom: 0px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  border-top: none; }
+
+.blue-text {
+  color: #1da7da; }
+
+.user-text {
+  color: #1da7da;
+  font-size: 14px;
+  font-family: Nunito; }
+
+.secondary-card-text {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Nunito; }
+
+.right {
+  float: right; }
+
