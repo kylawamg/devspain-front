@@ -1,7 +1,4 @@
-import gql from "graphql-tag";
-
-const POSTS_QUERY = gql`
-  query Posts {
+const POSTS_QUERY = `query Posts {
     posts {
       id
       title
@@ -17,7 +14,6 @@ const POSTS_QUERY = gql`
         url
       }
     }
-  }
-`;
+  }`;
 
 export default POSTS_QUERY;

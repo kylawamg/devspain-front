@@ -1,6 +1,4 @@
-import gql from "graphql-tag";
-
-const POST_BY_ID_QUERY = gql`
+const POST_BY_ID_QUERY = `
   query Posts($id: ID!) {
     post(id: $id) {
       id
@@ -18,7 +16,6 @@ const POST_BY_ID_QUERY = gql`
         url
       }
     }
-  }
-`;
+  }`;
 
 export default POST_BY_ID_QUERY;
