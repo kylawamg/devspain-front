@@ -14,7 +14,7 @@ const Card = ({ post }) => {
             <a>
               <img
                 className="img-card"
-                src={`http://localhost:1337${post.image.url}`}
+                src={`http://64.225.72.200${post.image.url}`}
                 alt=""
               ></img>
             </a>

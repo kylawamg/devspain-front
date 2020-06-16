@@ -9,7 +9,7 @@ const PostDetail = ({ post }) => {
           className="article__image"
           style={{
             width: "100%",
-            backgroundImage: `url(http://localhost:1337${post.image.url})`,
+            backgroundImage: `url(http://64.225.72.200${post.image.url})`,
           }}
         ></div>
         <div className="article__content">
