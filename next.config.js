@@ -9,6 +9,6 @@ module.exports = withSass({
     exportPathMap: () => ({
       "/": { page: "/" },
     }),
-    assetPrefix: isProd ? "https://kylawamg.github.io" : "",
+    assetPrefix: isProd ? "/devspain-front" : "",
   },
 });
