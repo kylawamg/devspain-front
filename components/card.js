@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import "../assets/scss/card.scss";
+import getConfig from "next/config";
+
+const { publicRuntimeConfig } = getConfig();
 const Card = ({ post }) => {
   const imageUrl =
     process.env.NODE_ENV !== "development"
@@ -10,7 +13,10 @@ const Card = ({ post }) => {
     <div>
       <div className="uk-card uk-card-default">
         <div className="uk-card-media-top">
-          <Link href="/post/[id]" as={`/post/${post.id}`}>
+          <Link
+            href={`${publicRuntimeConfig.basePath || ""}/post/[id]`}
+            as={`/post/${post.id}`}
+          >
             <a>
               <img
                 className="img-card"
@@ -22,7 +28,10 @@ const Card = ({ post }) => {
         </div>
 
         <div className="uk-card-body">
-          <Link href="/post/[id]" as={`/post/${post.id}`}>
+          <Link
+            href={`${publicRuntimeConfig.basePath || ""}/post/[id]`}
+            as={`/post/${post.id}`}
+          >
             <a>
               <h3 className="uk-card-title">{post.title}</h3>
             </a>
