@@ -3,7 +3,9 @@ import Link from "next/link";
 import Query from "../components/query";
 import CATEGORIES_QUERY from "../apollo/queries/category/categories";
 import "../assets/scss/nav.scss";
+import getConfig from "next/config";
 
+const { publicRuntimeConfig } = getConfig();
 const Nav = () => {
   return (
     <div>
@@ -20,7 +22,10 @@ const Nav = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/about">
+                <Link
+                  href="/about"
+                  as={`${publicRuntimeConfig.basePath || ""}/about`}
+                >
                   <a>Quien somos</a>
                 </Link>
               </li>
