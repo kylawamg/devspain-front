@@ -4,6 +4,7 @@ const withFonts = require("next-fonts");
 module.exports = withSass({
   env: {
     API_URL: process.env.API_URL,
+    BASE_PATH: "/devspain-front",
   },
   assetPrefix: process.env.BASE_PATH || "",
   publicRuntimeConfig: {

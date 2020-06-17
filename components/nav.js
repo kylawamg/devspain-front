@@ -23,7 +23,7 @@ const Nav = () => {
               </li>
               <li>
                 <Link
-                  href="/about"
+                  href={`${publicRuntimeConfig.basePath || ""}/about`}
                   as={`${publicRuntimeConfig.basePath || ""}/about`}
                 >
                   <a>Quien somos</a>
