@@ -15,7 +15,7 @@ const Home = ({ posts }) => {
     <div>
       <div className="uk-section home-container">
         <div className="uk-container uk-container-large">
-          <h2 className="home-title">Últimos articulos</h2>
+          <h2 className="home-title">Últimos articulosss</h2>
           <Posts posts={posts} />
           <a href="/articles" className="uk-button btn-load-more">
             Ver todos

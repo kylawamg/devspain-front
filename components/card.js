@@ -15,7 +15,7 @@ const Card = ({ post }) => {
         <div className="uk-card-media-top">
           <Link
             href={`${publicRuntimeConfig.basePath || ""}/post/[id]`}
-            as={`/post/${post.id}`}
+            as={`${publicRuntimeConfig.basePath || ""}/post/${post.id}`}
           >
             <a>
               <img
@@ -30,7 +30,7 @@ const Card = ({ post }) => {
         <div className="uk-card-body">
           <Link
             href={`${publicRuntimeConfig.basePath || ""}/post/[id]`}
-            as={`/post/${post.id}`}
+            as={`${publicRuntimeConfig.basePath || ""}/post/${post.id}`}
           >
             <a>
               <h3 className="uk-card-title">{post.title}</h3>
@@ -40,11 +40,14 @@ const Card = ({ post }) => {
         <div className="uk-card-foot">
           <span className="secondary-card-text">
             By:{" "}
-            <a className="secondary-card-text blue-text" href="#">
+            <a className="secondary-card-text blue-text" href="/">
               {post.user.username}
             </a>
           </span>
-          <a className="secondary-card-text blue-text right" href="#">
+          <a
+            className="secondary-card-text blue-text right"
+            href={`${publicRuntimeConfig.basePath || ""}/`}
+          >
             {post.category.name}
           </a>
         </div>

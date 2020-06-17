@@ -12,9 +12,10 @@ const Nav = () => {
       <div data-uk-sticky="show-on-up: true">
         <nav className="uk-navbar-container" data-uk-navbar>
           <div className="uk-navbar-left">
-            <a className="uk-navbar-item uk-logo" href="/">
-              DevSpain Blog
-            </a>
+            <Link href={`${publicRuntimeConfig.basePath || ""}/`}>
+              <a className="uk-navbar-item uk-logo">DevSpain Blog</a>
+            </Link>
+
             <ul className="uk-navbar-nav">
               <li>
                 <Link href="/articles">
